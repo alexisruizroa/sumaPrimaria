@@ -10,7 +10,8 @@ public class Main {
     }
 
     public static Integer getNumeroAcarreo(Integer a, Integer b) {
-        return 1;
+        Integer longitudNumero = String.valueOf(a).length();
+        return longitudNumero - 1;
     }
 
 }
